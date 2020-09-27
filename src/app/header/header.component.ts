@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
 	title = "Bobo Agency";
 	isDisabled = true;
 
+	dateNow = new Date();
+
 	constructor() { }
 
 	ngOnInit(): void {
